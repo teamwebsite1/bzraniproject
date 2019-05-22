@@ -1,0 +1,13 @@
+.headerContainer {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  background-color: rgba(0,0,0,0.7);
+  padding: 20px;
+}

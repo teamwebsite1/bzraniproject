@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>About page</title>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <div class="container">
+  <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776; <span style="float:right">Bzrani Project</span></span>
+  <!-- story header -->
+  <h1 class="top50 text-center">Bzrani Project story</h1>
+  <hr>
+  <!-- image of Dr. Bzrani-->
+  <img class="img-responsive" style="width: 400px; height: 400px; margin: 0 auto; display: block; padding-top: 50px;"src="header.jpg">
+  <!-- image info footer -->
+  <p class="text-center">picture of Dr. Bzrani at her get away</p>
+
+  <!-- about story info -->
+  <p class="text-center top50" style="font-size: 25px;">Bzrani Project started to this is example text this is example text this is example text Bzrani Project started to this is example text this is example text this is example text Bzrani Project started to this is example text this is example text this is example text Bzrani Project started to this is example text this is example text this is example text</p>
+
+  </div>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html> 
