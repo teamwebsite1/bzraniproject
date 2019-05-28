@@ -51,10 +51,35 @@ body {
   margin-top: 50px;
 }
 
+.top100 {
+  margin-top: 100px;
+}
+
 .mainColor {
   color: #00a200;
 }
 
 .black {
   color: black;
+}
+
+.subContent {
+  font-size: 25px;
+  color: black;
+}
+
+.top25 {
+  margin-top: 25px;
+}
+
+.bottom25 {
+  margin-bottom: 25px;
+}
+
+.bottom50 {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
